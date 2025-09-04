@@ -279,7 +279,7 @@ export default async function HomePage() {
       <footer className="relative mt-24 border-t border-gray-200/60 bg-gray-50/80 backdrop-blur-xl">
         <div className="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <p className="text-gray-600">&copy; 2024 Dyad Snacks. Crafted with passion.</p>
+            <p className="text-gray-600">&copy; 2024 Ternary Snacks. Crafted with passion.</p>
             <Button
               asChild
               variant="link"

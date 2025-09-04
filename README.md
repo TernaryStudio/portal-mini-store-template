@@ -1,4 +1,4 @@
-# 🍿 Dyad Snacks
+# 🍿 Ternary Snacks
 
 This template comes configured with the bare minimum to get started on anything you need.
 
@@ -81,7 +81,7 @@ This template comes configured with the bare minimum to get started on anything 
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd dyad-snacks
+   cd ternary-snacks
    ```
 
 2. **Install dependencies**

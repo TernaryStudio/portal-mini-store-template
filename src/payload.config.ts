@@ -52,12 +52,12 @@ export default buildConfig({
     },
     // When set to undefined or true, Payload will automatically push DB
     // changes in dev environment.
-    push: process.env.DYAD_DISABLE_DB_PUSH === 'true' ? false : undefined,
+    push: process.env.TERNARY_DISABLE_DB_PUSH === 'true' ? false : undefined,
   }),
   sharp,
   email: nodemailerAdapter({
     defaultFromAddress: process.env.GMAIL_USER || '',
-    defaultFromName: process.env.EMAIL_DEFAULT_FROM_NAME || 'Dyad app',
+    defaultFromName: process.env.EMAIL_DEFAULT_FROM_NAME || 'Ternary app',
     transport: await nodemailer.createTransport({
       service: 'gmail',
       auth: {
